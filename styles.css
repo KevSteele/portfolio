@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-txt {
+    height: 50%;
+    width: auto;
+    align-self: flex-end;
+}
+
+.navbar {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0px 0px 0px 20px;
+        /* top right bottom left */
+}
+
+.links {
+    word-spacing: 10px;
+}
+
+.nav-button {
+    border: 1px solid black;
+    margin-left: 20px; /* might have to adjust 20px for responsive */
+    padding-right: 4.5px;
+}
+
+.content {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.portfolio-grid-item {
+    width: 235;
+    height: 250;
+    border: 1px solid red;
+    background-color: lightgoldenrodyellow;
+}
+
+.footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid white;
+    background-color: lightblue;
+    height: 200px;
+    flex: 1;
+}
